@@ -402,6 +402,11 @@ include_directories(
     ${QTKEYCHAIN_INCLUDE_DIRS}
 )
 
+# terrible hack, but I don't care as we switch to LibVLC directly anyway (let's see how long it takes ...)
+IF(NOT BUILD_WITH_QT4 AND WIN32)
+    include_directories("/usr/i686-w64-mingw32/sys-root/mingw/include/phonon4qt5/")
+ENDIF()
+
 IF(QCA2_FOUND)
     INCLUDE_DIRECTORIES( ${QCA2_INCLUDE_DIR} )
 ENDIF(QCA2_FOUND)

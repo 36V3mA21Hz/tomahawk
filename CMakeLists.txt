@@ -364,10 +364,10 @@ macro_optional_find_package(Threads)
 macro_log_feature(THREADS_FOUND "Threads" "Threading Library" "" TRUE "" "Platform specific library for threading")
 
 ### QtSparkle
-if( WIN32 )
-    macro_optional_find_package(QtSparkle)
-    macro_log_feature(QTSPARKLE_FOUND "qtsparkle" "Library for creating auto updaters written in Qt" "https://github.com/davidsansome/qtsparkle" FALSE "" "")
-endif( WIN32 )
+# if( WIN32 )
+#     macro_optional_find_package(QtSparkle)
+#     macro_log_feature(QTSPARKLE_FOUND "qtsparkle" "Library for creating auto updaters written in Qt" "https://github.com/davidsansome/qtsparkle" FALSE "" "")
+# endif( WIN32 )
 
 if( WIN32 OR APPLE )
 if( TOMAHAWK_QT5 )
