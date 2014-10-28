@@ -315,7 +315,7 @@ Section "Tomahawk Player" SEC_TOMAHAWK_PLAYER
    ;File "${QT_DLL_PATH}\QtXml4.dll"
    ;File "${QT_DLL_PATH}\QtSvg4.dll"
    ;File "${QT_DLL_PATH}\QtDeclarative4.dll"
-    File "${QT_DLL_PATH}\QtXmlPatterns4.dll"
+   ;File "${QT_DLL_PATH}\QtXmlPatterns4.dll"
     File "${QT_DLL_PATH}\Qt5Network.dll"
     File "${QT_DLL_PATH}\Qt5Qml.dll"
     File "${QT_DLL_PATH}\Qt5Sql.dll"
@@ -343,6 +343,7 @@ Section "Tomahawk Player" SEC_TOMAHAWK_PLAYER
    ;Boost fnord
     File "${QT_DLL_PATH}\icuuc53.dll"
     File "${QT_DLL_PATH}\icudata53.dll"
+    File "${QT_DLL_PATH}\icui18n53.dll"
 
    ;SQLite driver
    SetOutPath "$INSTDIR\sqldrivers"
