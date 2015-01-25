@@ -319,7 +319,6 @@ Section "Tomahawk Player" SEC_TOMAHAWK_PLAYER
     File "${QT_DLL_PATH}\Qt5Network.dll"
     File "${QT_DLL_PATH}\Qt5Qml.dll"
     File "${QT_DLL_PATH}\Qt5Sql.dll"
-    File "${QT_DLL_PATH}\Qt5WebKitWidgets.dll"
     File "${QT_DLL_PATH}\Qt5Xml.dll"
     File "${QT_DLL_PATH}\Qt5Core.dll"
     File "${QT_DLL_PATH}\Qt5OpenGL.dll"
@@ -331,6 +330,12 @@ Section "Tomahawk Player" SEC_TOMAHAWK_PLAYER
     File "${QT_DLL_PATH}\Qt5Sensors.dll"
     File "${QT_DLL_PATH}\Qt5WebKit.dll"
     File "${QT_DLL_PATH}\Qt5WinExtras.dll"
+    ; QtWebKit4
+    File "${QT_DLL_PATH}\Qt5WebKit.dll"
+    File "${QT_DLL_PATH}\Qt5WebKitWidgets.dll"
+    File "${QT_DLL_PATH}\Qt5Multimedia.dll"
+    File "${QT_DLL_PATH}\Qt5MultimediaWidgets.dll"
+
 
     ;Qt deps
     File "${QT_DLL_PATH}\libpcre16-0.dll"
