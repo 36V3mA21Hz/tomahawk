@@ -435,7 +435,7 @@ Section "Tomahawk Player" SEC_TOMAHAWK_PLAYER
    File "${MING_BIN}\libboost_iostreams-mt.dll"
    File "${MING_BIN}\libboost_regex-mt.dll"
    File "${MING_BIN}\libboost_thread-mt.dll"
-   File "${MING_BIN}\bz2-1.dll"
+   File "${MING_BIN}\libbz2-1.dll"
 
    ;File "${MING_BIN}\libqtsparkle.dll"
    File "${MING_BIN}\libKF5Attica.dll"
